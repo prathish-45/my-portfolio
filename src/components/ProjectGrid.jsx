@@ -13,6 +13,7 @@ const ProjectGrid = () => {
                     imageUrl={project.imageUrl}
                     techStack={project.techStack}
                     githubLink={project.gitHubLink}
+                    liveUrl={project.liveUrl}
                 />
             ))
             }

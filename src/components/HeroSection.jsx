@@ -68,7 +68,7 @@ const HeroSection = () => {
           <a href="#projects" className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition-all hover:scale-105 shadow-lg">
             View My Work
           </a>
-          <a href="https://github.com/yourusername" target="_blank" className="border-2 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-8 py-3 rounded-full font-bold hover:bg-gray-100 dark:hover:bg-gray-800 transition-all">
+          <a href="https://github.com/prathish-45" target="_blank" className="border-2 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 px-8 py-3 rounded-full font-bold hover:bg-gray-100 dark:hover:bg-gray-800 transition-all">
             GitHub
           </a>
         </motion.div>

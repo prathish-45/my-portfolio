@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import {motion} from "framer-motion";
 
-const ProjectCart = ({ title, description, imageUrl, techStack, githubLink}) => {
+const ProjectCart = ({ title, description, imageUrl, techStack, githubLink, liveUrl }) => {
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -14,14 +14,25 @@ const ProjectCart = ({ title, description, imageUrl, techStack, githubLink}) => 
             transition={{ duration: 0.3 }}
             className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-gray-700 "
         >
-            <div className="relative h-48 w-full">
-                <Image
-                    src={imageUrl}
-                    alt={title}
-                    fill
-                    className="object-cover"
-                />
-            </div>
+            {liveUrl ? (
+                <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="block relative h-48 w-full cursor-pointer">
+                    <Image
+                        src={imageUrl}
+                        alt={title}
+                        fill
+                        className="object-cover"
+                    />
+                </a>
+            ) : (
+                <div className="relative h-48 w-full">
+                    <Image
+                        src={imageUrl}
+                        alt={title}
+                        fill
+                        className="object-cover"
+                    />
+                </div>
+            )}
             <div className="p-6">
                 <h3 className="font-bold text-xl mb-2 text-gray-900 dark:text-white">
                     {title}

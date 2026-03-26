@@ -6,6 +6,7 @@ export const projectsData = [
     techStack: ["Next.js", "Framer Motion", "Tailwind"],
     imageUrl: "/Portfolio.png", 
     gitHubLink: "https://github.com/prathish-45/my-portfolio",
+    liveUrl: "https://myportfolio-prathish-sakthivel.vercel.app/",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const projectsData = [
     techStack: ["React.js", "Tailwind CSS", "Node.js"],
     imageUrl: "/smart-resume.png",
     gitHubLink: "https://github.com/prathish-45/smart-resume-builder",
+    liveUrl: "https://smart-resume-builder-theta.vercel.app/",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const projectsData = [
     techStack: ["JavaScript", "HTML", "CSS"],
     imageUrl: "/dicee.png",
     gitHubLink: "https://github.com/prathish-45/Dicee-Challenge",
+    liveUrl: "https://prathish-45.github.io/Dicee-Challenge/",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const projectsData = [
     techStack: ["HTML", "CSS", "JavaScript"],
     imageUrl: "/drumkit.png",
     gitHubLink: "https://github.com/prathish-45/Drum-Kit-Project",
+    liveUrl: "https://prathish-45.github.io/Drum-Kit-Project/",
   },
   {
     id: 6,
