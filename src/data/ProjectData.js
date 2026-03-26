@@ -5,7 +5,7 @@ export const projectsData = [
     description: "Personal portfolio built with Next.js, Tailwind CSS, and Framer Motion.",
     techStack: ["Next.js", "Framer Motion", "Tailwind"],
     imageUrl: "/Portfolio.png", 
-    gitHubLink: "https://github.com/prathish-45/my-portfolio",
+    gitHubLink: "https://myportfolio-henna-kappa.vercel.app/",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projectsData = [
     description: "Web app to create and download professional resumes in PDF format.",
     techStack: ["React.js", "Tailwind CSS", "Node.js"],
     imageUrl: "/smart-resume.png",
-    gitHubLink: "https://github.com/prathish-45/smart-resume-builder",
+    gitHubLink: "https://smart-resume-builder-theta.vercel.app/",
   },
   {
     id: 3,
